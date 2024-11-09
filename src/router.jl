@@ -1,5 +1,6 @@
 export Router, route!
 export netflows!, netflows, update_reserves!
+using Optimization, OptimizationOptimJL
 
 struct Router{O,T}
     objective::O

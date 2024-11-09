@@ -19,7 +19,7 @@ router = CFMMRouter.Router(
 
 # Optimize!
 println("Starting optimization!")
-CFMMRouter.route!(router, version=1)
+CFMMRouter.route!(router, version=2)
 
 # Print results
 Ψ = CFMMRouter.netflows(router)
